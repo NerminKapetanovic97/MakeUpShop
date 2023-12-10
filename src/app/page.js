@@ -34,7 +34,7 @@ export default function Home() {
                             </div>
                            
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/blush">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ export default function Home() {
                             </div>
                           
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/bronzer">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ export default function Home() {
                             </div>
                             
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/lipstick">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ export default function Home() {
                             </div>
                            
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/eyeliner">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ export default function Home() {
                             </div>
                             
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/lip_liner">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ export default function Home() {
                             </div>
                             
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/eyebrow">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@ export default function Home() {
                             </div>
                             
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/eyeshadow">View category</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@ export default function Home() {
                             </div>
                            
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/test">View category</a></div>
+                                <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="/shop/foundation">View category</a></div>
                             </div>
                         </div>
                     </div>

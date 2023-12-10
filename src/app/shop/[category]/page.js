@@ -1,11 +1,11 @@
 "use client"
 import { useEffect, useState } from "react"
 
-export default function Shop() {
-    
+export default function Shop({params}) {
+    //console.log(params.category)
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick", {
+        fetch("https://makeup-api.herokuapp.com/api/v1/products.json?product_type=" + params.category, {
           method: "GET",
           headers: {
             'Accept': 'application/json'
@@ -14,7 +14,7 @@ export default function Shop() {
             .then((response) => response.json())
             .then((data) => {
               setData(data);
-              console.log(data);
+              //console.log(data);
             })
             .catch((error) => console.log(error));
       }, []);
@@ -37,7 +37,7 @@ export default function Shop() {
                     
                     
                 {data.map((product) => (
-                    <div className="col mb-5">
+                    <div className="col mb-5" key={product.id}>
                         <div className="card h-100">
                             
                             <img className="card-img-top" src={product.api_featured_image} alt="..." />

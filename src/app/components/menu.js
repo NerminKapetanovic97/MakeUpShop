@@ -15,9 +15,12 @@ const Menu = () => {
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a className="dropdown-item" href="/shop/test">All Products</a></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="/shop">Popular Items</a></li>
-                                <li><a className="dropdown-item" href="#">New Arrivals</a></li>
-                                <li><a className="dropdown-item" href="/shop/lipliner">Lip liners</a></li>
+                                <li><a className="dropdown-item" href="/shop/blush">Blushes</a></li>
+                                <li><a className="dropdown-item" href="/shop/lip_liner">Lip liners</a></li>
+                                <li><a className="dropdown-item" href="/shop/bronzer">Bronzers</a></li>
+                                <li><a className="dropdown-item" href="/shop/eyebrow">Eyebrow</a></li>
+                                <li><a className="dropdown-item" href="/shop/eyeliner">Eyeliners</a></li>
+                                <li><a className="dropdown-item" href="/shop/eyeshadow">Eyeshadows</a></li>
                             </ul>
                         </li>
                     </ul>
