@@ -13,7 +13,7 @@ const Menu = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id="navbarDropdown" href="/shop" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="/shop/test">All Products</a></li>
+                                <li><a className="dropdown-item" href="/shop/all">All Products</a></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="/shop/blush">Blushes</a></li>
                                 <li><a className="dropdown-item" href="/shop/lip_liner">Lip liners</a></li>
@@ -21,6 +21,8 @@ const Menu = () => {
                                 <li><a className="dropdown-item" href="/shop/eyebrow">Eyebrow</a></li>
                                 <li><a className="dropdown-item" href="/shop/eyeliner">Eyeliners</a></li>
                                 <li><a className="dropdown-item" href="/shop/eyeshadow">Eyeshadows</a></li>
+                                <li><a className="dropdown-item" href="/shop/lipstick">Lipstick</a></li>
+                                <li><a className="dropdown-item" href="/shop/foundation">Foundation</a></li>
                             </ul>
                         </li>
                     </ul>
