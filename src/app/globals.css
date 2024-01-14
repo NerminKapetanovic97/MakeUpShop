@@ -105,3 +105,18 @@ a {
     color-scheme: dark;
   }
 }
+
+.productColors{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.colorCircle{
+  margin-right:10px;
+  margin-left:10px;
+  border-radius:10px;
+  width:20px;
+  height:20px;
+}

@@ -2,10 +2,10 @@
 import { useEffect, useState } from "react"
 
 export default function Shop({params}) {
-    //console.log(params.category)
+    //console.log(params.brand)
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch("https://makeup-api.herokuapp.com/api/v1/products.json?product_type=" + params.category, {
+        fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=" + params.brand, {
           method: "GET",
           headers: {
             'Accept': 'application/json'
@@ -25,7 +25,7 @@ export default function Shop({params}) {
           <header className="bg-dark py-5">
               <div className="container px-4 px-lg-5 my-5">
                   <div className="text-center text-white">
-                      <h1 className="display-4 fw-bolder" style={{textTransform: "capitalize"}} >{params.category}</h1>
+                      <h1 className="display-4 fw-bolder" style={{textTransform: "capitalize"}} >{params.brand}</h1>
                       <p className="lead fw-normal text-white-50 mb-0">Check out our products</p>
                   </div>
               </div>
